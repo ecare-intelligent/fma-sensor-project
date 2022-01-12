@@ -1,2 +1,5 @@
-Record=TopLevelDocument|FileName=Sample_v1.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Sample_v1.SchDoc|FileName=SampleCompact.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=Sample_FFC_Con_Sensor_v1.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Sample_FFC_Con_Sensor_v1.SchDoc|FileName=Sample_FPC_FFC_TestBoard.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Sample_FFC_Con_Sensor_v1.SchDoc|FileName=Sample_FPC_v1.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Sample_FFC_Con_Sensor_v1.SchDoc|FileName=Sample_v1.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Sample_FFC_Con_Sensor_v1.SchDoc|FileName=SampleCompact.SchDoc|SheetNumber=2
