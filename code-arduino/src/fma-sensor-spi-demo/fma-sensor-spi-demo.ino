@@ -75,7 +75,7 @@ void loop()
 
     temperature = temperature_raw * 200 / 2047.0 - 50;
 
-    force = (5 * force_raw - 16380) / 9831.0 *1000;
+    force = double(5 * force_raw - 16380) / 9831.0 *1000;
 
     if (status!=0)
     {
@@ -87,10 +87,10 @@ void loop()
         //Serial.println("Status="+ String(status)+",Force[mN]=" + String(force)+",Temperature[C]=" + String(temperature,1));
 
         // View in Serial Graph
-        Serial.println("0,"+String(force)+",5000");
+        //Serial.println("0,"+String(force)+",5000");
 
         // View all data
-        //Serial.println(String(status)+","+String(force)+","+String(temperature,1)+","+String(force_raw)+","+String(temperature_raw));
+        Serial.println(String(status)+","+String(force)+","+String(temperature,1)+","+String(force_raw)+","+String(temperature_raw));
     }
     
     

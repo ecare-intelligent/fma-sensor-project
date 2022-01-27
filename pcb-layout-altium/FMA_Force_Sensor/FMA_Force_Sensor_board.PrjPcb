@@ -82,7 +82,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -160,7 +160,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XVPWTWJF
 
 [Document8]
-DocumentPath=Sample_FPC_v1.PcbDoc
+DocumentPath=Sample_FPC_v1_new.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -177,6 +177,23 @@ GenerateClassCluster=0
 DocumentUniqueId=VLJFKIAM
 
 [Document9]
+DocumentPath=Sample_FPC_v1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VLJFKIAM
+
+[Document10]
 DocumentPath=Sample_FFC_Con_Sensor_v1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCIZOPAM
 
-[Document10]
+[Document11]
 DocumentPath=Sample_FFC_Con_Sensor_v1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DEKTGWWA
 
-[Document11]
+[Document12]
 DocumentPath=Sample_FPC_FFC_TestBoard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EBPYQMQQ
 
-[Document12]
+[Document13]
 DocumentPath=Sample_FPC_FFC_TestBoard_v1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +380,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=TL-M132snw (HP LaserJet MFP M132snw)
+TargetPrinter=Ecare_M132nw (HP LaserJet MFP M132nw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1157,29 +1174,41 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=FMA_Sensor.IntLib
+ComponentLibraryIdentifier0=FMA_Sensor.SchLib
 ComponentDesignItemID0=FMAMSDXX005WCSC3
 ComponentSymbolReference0=FMAMSDXX005WCSC3
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=FMA_Sensor.IntLib
-ComponentDesignItemID1=Header 3 Stamp
-ComponentSymbolReference1=Header 3 Stamp
+ComponentLibraryIdentifier1=FMA_Sensor.SchLib
+ComponentDesignItemID1=FPC0.5-5P
+ComponentSymbolReference1=FPC0.5-5P
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=FMA_Sensor.IntLib
-ComponentDesignItemID2=Header 3
-ComponentSymbolReference2=Header 3
+ComponentLibraryIdentifier2=FMA_Sensor.SchLib
+ComponentDesignItemID2=FPC0.5-5P-line
+ComponentSymbolReference2=FPC0.5-5P-line
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=FMA_Sensor.IntLib
-ComponentDesignItemID3=Header 4
-ComponentSymbolReference3=Header 4
+ComponentLibraryIdentifier3=FMA_Sensor.SchLib
+ComponentDesignItemID3=Header 3
+ComponentSymbolReference3=Header 3
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=FMA_Sensor.SchLib
+ComponentDesignItemID4=Header 4
+ComponentSymbolReference4=Header 4
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=FMA_Sensor.SchLib
+ComponentDesignItemID5=Header 5
+ComponentSymbolReference5=Header 5
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1213,22 +1242,31 @@ ModelType0=PCBLIB
 ModelName0=FMA_MICROFORCE_6
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=HDR1X3
+ModelName1=FMA_MICROFORCE_6-EXTENED
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=HDR1X3 - stamp
+ModelName2=FPC0.5-5P
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=HDR1X4
+ModelName3=FPC0.5-5P-Line
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=Header 2.54X4
+ModelName4=HDR1X3
 ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=HDR1X4
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=HDR1X5
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=Header 2.54X4
+ModelUpdate7=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType5=SI
-ModelName5=Connector
-ModelUpdate5=1
+ModelType8=SI
+ModelName8=Connector
+ModelUpdate8=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
