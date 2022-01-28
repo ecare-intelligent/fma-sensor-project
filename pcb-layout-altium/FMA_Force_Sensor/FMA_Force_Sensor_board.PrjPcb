@@ -174,7 +174,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VLJFKIAM
+DocumentUniqueId=EPYQOSJR
 
 [Document9]
 DocumentPath=Sample_FPC_v1.PcbDoc
@@ -245,7 +245,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EBPYQMQQ
 
 [Document13]
-DocumentPath=Sample_FPC_FFC_TestBoard_v1.PcbDoc
+DocumentPath=Sample_FPC_FFC_TestBoard_Flipped_v1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
