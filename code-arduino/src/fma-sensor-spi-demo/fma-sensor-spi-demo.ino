@@ -102,7 +102,7 @@ uint32_t readRawData()
 
     // take the chip select low to select the device:
     digitalWrite(slaveSelectPin, LOW);
-
+    delay(1);
     // send a value of 0 to read the first byte returned:
 
     result |= (uint32_t)SPI.transfer(0xff) << 24;
@@ -110,6 +110,7 @@ uint32_t readRawData()
     result |= (uint32_t)SPI.transfer(0xff) << 8;
     result |= (uint32_t)SPI.transfer(0xff);
 
+    delay(1);
     // decrement the number of bytes left to read:
     digitalWrite(slaveSelectPin, HIGH);
 
